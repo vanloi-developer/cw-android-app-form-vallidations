@@ -22,36 +22,36 @@
                 android:id="@+id/label_type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:text="@string/type" />
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/type"/>
 
             <Spinner
                 android:id="@+id/type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
                 android:entries="@array/type" />
 
             <TextView
                 android:id="@+id/label_bedRoom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:text="@string/bedRoom" />
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/bedRoom"/>
 
             <EditText
                 android:id="@+id/bedRoom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
                 android:ems="10"
                 android:inputType="number"
                 android:autofillHints="no"
@@ -61,36 +61,34 @@
                 android:id="@+id/label_furniture"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:text="@string/furniture" />
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:text="@string/furniture"/>
 
             <RadioGroup
                 android:id="@+id/furniture"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
-
-                <RadioButton
-                    android:id="@+id/radio_furnished"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/furnished" />
-
-                <RadioButton
-                    android:id="@+id/radio_unfurnished"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/unfurnished" />
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp">
 
                 <RadioButton
                     android:id="@+id/radio_part_furnished"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/part_furnished" />
+                    android:text="@string/part_furnished"/>
+                <RadioButton
+                    android:id="@+id/radio_unfurnished"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unfurnished"/>
+                <RadioButton
+                    android:id="@+id/radio_furnished"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/furnished"/>
             </RadioGroup>
 
 
@@ -107,9 +105,9 @@
                 android:id="@+id/priceByMonth"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
                 android:ems="10"
                 android:inputType="number"
                 android:autofillHints="no"
@@ -169,9 +167,9 @@
                 android:id="@+id/createdAt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
                 android:ems="10"
                 android:text=""
                 android:importantForAutofill="no"
@@ -181,10 +179,10 @@
                 android:id="@+id/button_submit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="21dp"
                 android:text="@string/submit" />
 
         </LinearLayout>
